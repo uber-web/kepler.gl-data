@@ -1,4 +1,4 @@
 The data provided in this repo is public and located at the following URLs:
-- [California Earthquakes](https://earthquake.usgs.gov/data/data.php)
-- [New York City cab rides](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)
-- [San Francisco elevation contour](https://data.sfgov.org/Energy-and-Environment/Elevation-Contours/rnbg-2qxw/data)
+- [California Earthquakes](https://earthquake.usgs.gov/data/data.php): The dataset contains a list of 2.5+ magnitude earthquakes in california. Information was generated using USGS website and contains multiple properties (location, magnitude, magtype) for each single entry.
+- [New York City cab rides](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml): The yellow and green taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. 
+- [San Francisco elevation contour](https://data.sfgov.org/Energy-and-Environment/Elevation-Contours/rnbg-2qxw/data): Physical Features - Elevation contours for San Francisco mainland and Treasure Island/Yerba Island. Based on San Francisco Elevation Datum.
