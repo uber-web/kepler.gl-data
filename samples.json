@@ -1,0 +1,32 @@
+[
+  {
+    "id": "earthquakes",
+    "label": "California Earthquakes",
+    "queryType": "sample",
+    "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/earthquakes.png",
+    "description": "Visualizing 3+ mag earthquakes of California from 1967 to present time",
+    "size": 54936,
+    "dataUrl": "https://raw.githubusercontent.com/macrigiuseppe/kepler.gl-data/master/earthquakes/data.csv",
+    "configUrl": "https://raw.githubusercontent.com/macrigiuseppe/kepler.gl-data/master/earthquakes/config.json"
+  },
+  {
+    "id": "nyctrips",
+    "label": "NYC taxi trips",
+    "queryType": "sample",
+    "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/nyctrips.png",
+    "description": "New York City taxi rides (sample)",
+    "size": 97986,
+    "dataUrl": "https://raw.githubusercontent.com/macrigiuseppe/kepler.gl-data/master/nyctrips/data.csv",
+    "configUrl": "https://raw.githubusercontent.com/macrigiuseppe/kepler.gl-data/master/nyctrips/config.json"
+  },
+  {
+    "id": "sfcontour",
+    "label": "San Francisco elevation contours",
+    "queryType": "sample",
+    "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/sfcontour.png",
+    "description": "Physical Features - Elevation contours for San Francisco mainland and Treasure Island/Yerba Island. Based on San Francisco Elevation Datum.",
+    "size": 13598,
+    "dataUrl": "https://raw.githubusercontent.com/macrigiuseppe/kepler.gl-data/master/sfcontour/data.json",
+    "configUrl": "https://raw.githubusercontent.com/macrigiuseppe/kepler.gl-data/master/sfcontour/config.json"
+  }
+]
