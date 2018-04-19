@@ -19,9 +19,9 @@
             "isVisible":false,
             "opacity":0.7
          },
-         "styleType":"muted_night",
-         "topLayerGroups":{
-            "label":false
+         "styleType": "dark",
+         "topLayerGroups": {
+            "label": true
          },
          "visibleLayerGroups":{
             "border":false,
