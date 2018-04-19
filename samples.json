@@ -38,5 +38,15 @@
     "size": 2166,
     "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/nyc_census/data.json",
     "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/nyc_census/config.json"
+  },
+  {
+    "id": "sftrees",
+    "label": "San Francisco street tree map",
+    "queryType": "sample",
+    "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/sftrees.png",
+    "description": "A 3d hexbin density map showing every single streets in San Francisco",
+    "size": 65499,
+    "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/sftrees/data.json",
+    "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/sftrees/config.json"
   }
 ]
