@@ -35,7 +35,7 @@
     "queryType": "sample",
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/nyc_census.png",
     "description": "This dataset contains the 2010 Census tract population data of NYC.",
-    "size": 2598320,
+    "size": 2166,
     "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/nyc_census/data.json",
     "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/nyc_census/config.json"
   }
