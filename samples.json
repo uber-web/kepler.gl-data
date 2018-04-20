@@ -48,5 +48,15 @@
     "size": 65499,
     "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/sftrees/data.json",
     "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/sftrees/config.json"
+  },
+  {
+    "id": "ukcommute",
+    "label": "Commute pattern in UK",
+    "queryType": "sample",
+    "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/ukcommute.png",
+    "description": "A origin destination map using arcs to show commute pattern of UK residence",
+    "size": 679643,
+    "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/ukcommute/data.json",
+    "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/ukcommute/config.json"
   }
 ]
