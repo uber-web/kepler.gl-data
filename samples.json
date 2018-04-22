@@ -4,7 +4,7 @@
     "label": "California Earthquakes",
     "queryType": "sample",
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/earthquakes.png",
-    "description": "The dataset contains a list of 2.5+ magnitude earthquakes in california. Information was generated using USGS website and contains multiple properties (location, magnitude, magtype) for each single entry.",
+    "description": "Location, maginitude and magtype of 2.5+ magnitude earthquakes in california.",
     "size": 54936,
     "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/earthquakes/data.csv",
     "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/earthquakes/config.json"
@@ -14,7 +14,7 @@
     "label": "NYC taxi trips",
     "queryType": "sample",
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/nyctrips.png",
-    "description": "The yellow and green taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. (This is a smaller sample)",
+    "description": "A small sample of yellow and green taxi trip records in New York City.",
     "size": 97986,
     "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/nyctrips/data.csv",
     "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/nyctrips/config.json"
@@ -24,7 +24,7 @@
     "label": "San Francisco elevation contours",
     "queryType": "sample",
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/sfcontour.png",
-    "description": "Physical Features - Elevation contours for San Francisco mainland and Treasure Island/Yerba Island. Based on San Francisco Elevation Datum.",
+    "description": "Elevation contours of San Francisco mainland and Treasure Island/Yerba Island.",
     "size": 13598,
     "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/sfcontour/data.json",
     "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/sfcontour/config.json"
