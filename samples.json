@@ -54,7 +54,7 @@
     "label": "Commute pattern in UK",
     "queryType": "sample",
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/ukcommute.png",
-    "description": "A origin destination map using arcs to show commute pattern of UK residence",
+    "description": "A origin destination map using 3d arcs to show commute patterns of UK residence",
     "size": 679643,
     "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/ukcommute/data.csv",
     "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/ukcommute/config.json"

@@ -5,121 +5,21 @@
       "filters": [],
       "layers": [
         {
-          "id": "zunrbnc",
-          "type": "point",
-          "config": {
-            "dataId": "ukcommute",
-            "label": "workplace",
-            "color": [
-              164,
-              13,
-              119
-            ],
-            "columns": {
-              "lat": "workplace_lat",
-              "lng": "workplace_lng",
-              "altitude": null
-            },
-            "isVisible": true,
-            "visConfig": {
-              "radius": 2,
-              "fixedRadius": false,
-              "opacity": 0.8,
-              "outline": false,
-              "thickness": 2,
-              "colorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
-              },
-              "radiusRange": [
-                0,
-                50
-              ],
-              "hi-precision": false
-            }
-          },
-          "visualChannels": {
-            "colorField": null,
-            "colorScale": "quantile",
-            "sizeField": null,
-            "sizeScale": "linear"
-          }
-        },
-        {
-          "id": "bjqutk2",
-          "type": "point",
-          "config": {
-            "dataId": "ukcommute",
-            "label": "residence",
-            "color": [
-              34,
-              63,
-              154
-            ],
-            "columns": {
-              "lat": "residence_lat",
-              "lng": "residence_lng",
-              "altitude": null
-            },
-            "isVisible": true,
-            "visConfig": {
-              "radius": 2,
-              "fixedRadius": false,
-              "opacity": 0.8,
-              "outline": false,
-              "thickness": 2,
-              "colorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
-                "category": "Uber",
-                "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
-                ]
-              },
-              "radiusRange": [
-                0,
-                50
-              ],
-              "hi-precision": false
-            }
-          },
-          "visualChannels": {
-            "colorField": null,
-            "colorScale": "quantile",
-            "sizeField": null,
-            "sizeScale": "linear"
-          }
-        },
-        {
-          "id": "1abohea",
+          "id": "jhivvbj",
           "type": "arc",
           "config": {
             "dataId": "ukcommute",
-            "label": "workplace -> residence arc",
+            "label": "home to work",
             "color": [
-              177,
-              41,
-              7
+              228,
+              155,
+              0
             ],
             "columns": {
-              "lat0": "workplace_lat",
-              "lng0": "workplace_lng",
-              "lat1": "residence_lat",
-              "lng1": "residence_lng"
+              "lat0": "residence_lat",
+              "lng0": "residence_lng",
+              "lat1": "workplace_lat",
+              "lng1": "workplace_lng"
             },
             "isVisible": true,
             "visConfig": {
@@ -142,7 +42,111 @@
                 0,
                 10
               ],
-              "targetColor": null,
+              "targetColor": [
+                149,
+                12,
+                105
+              ],
+              "hi-precision": false
+            }
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "1s997l7",
+          "type": "point",
+          "config": {
+            "dataId": "ukcommute",
+            "label": "workplace",
+            "color": [
+              149,
+              12,
+              105
+            ],
+            "columns": {
+              "lat": "workplace_lat",
+              "lng": "workplace_lng",
+              "altitude": null
+            },
+            "isVisible": true,
+            "visConfig": {
+              "radius": 1,
+              "fixedRadius": false,
+              "opacity": 0.3,
+              "outline": false,
+              "thickness": 2,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "hi-precision": false
+            }
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "a8ifut9",
+          "type": "point",
+          "config": {
+            "dataId": "ukcommute",
+            "label": "residence",
+            "color": [
+              246,
+              154,
+              0
+            ],
+            "columns": {
+              "lat": "residence_lat",
+              "lng": "residence_lng",
+              "altitude": null
+            },
+            "isVisible": true,
+            "visConfig": {
+              "radius": 1,
+              "fixedRadius": false,
+              "opacity": 0.4,
+              "outline": false,
+              "thickness": 2,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
               "hi-precision": false
             }
           },
@@ -158,9 +162,7 @@
         "tooltip": {
           "fieldsToShow": {
             "ukcommute": [
-              "all_flows",
-              "residentc_name",
-              "workplace_name"
+              "all_flows"
             ]
           },
           "enabled": true
@@ -174,12 +176,12 @@
       "splitMaps": []
     },
     "mapState": {
-      "bearing": 0,
-      "dragRotate": false,
-      "latitude": 52.8848770504129,
-      "longitude": -2.056725349166001,
-      "pitch": 0,
-      "zoom": 6.374262928476366,
+      "bearing": -4.928571428571431,
+      "dragRotate": true,
+      "latitude": 52.253971373306165,
+      "longitude": -2.6899063817571394,
+      "pitch": 49.18440507924836,
+      "zoom": 6.655984704565685,
       "isSplit": false
     },
     "mapStyle": {
