@@ -58,5 +58,15 @@
     "size": 679643,
     "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/ukcommute/data.csv",
     "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/ukcommute/config.json"
+  },
+  {
+    "id": "la_assessorparcels",
+    "label": "$2+ million homes built in Los Angeles since 2006",
+    "queryType": "sample",
+    "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/la_assessorparcels.png",
+    "description": "Map showing new homes valoed over $2,000,000 built in Los Angeles county since 2006",
+    "size": 284554,
+    "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/la_assessorparcels/data.csv",
+    "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/la_assessorparcels/config.json"
   }
 ]
