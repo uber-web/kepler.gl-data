@@ -185,7 +185,7 @@
       "isSplit": false
     },
     "mapStyle": {
-      "styleType": "dark",
+      "styleType": "muted_night",
       "topLayerGroups": {},
       "visibleLayerGroups": {
         "label": false,
