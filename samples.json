@@ -68,5 +68,15 @@
     "size": 284554,
     "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/la_assessorparcels/data.csv",
     "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/la_assessorparcels/config.json"
+  },
+  {
+    "id": "movement_pittsburgh",
+    "label": "Travel Times from Uber Movement",
+    "queryType": "sample",
+    "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/movement-pittsburgh.png",
+    "description": "Pittsburgh travel times before and during heavy inclement weather conditions",
+    "size": 793,
+    "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/movement_pittsburgh/data.csv",
+    "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/movement_pittsburgh/config.json"
   }
 ]
