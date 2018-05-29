@@ -78,5 +78,15 @@
     "size": 793,
     "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/movement_pittsburgh/data.csv",
     "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/movement_pittsburgh/config.json"
+  },
+  {
+    "id": "county_unemployment",
+    "label": "2017 Unemployment Rates for U.S. Counties",
+    "queryType": "sample",
+    "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/counties-unemployment.png",
+    "description": "2017 Labor force information for U.S. Counties",
+    "size": 3220,
+    "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/county_unemployment/data.json",
+    "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/county_unemployment/config.json"
   }
 ]
