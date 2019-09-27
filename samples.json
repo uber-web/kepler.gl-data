@@ -1,5 +1,16 @@
 [
   {
+    "id": "world_flights",
+    "label": "California Earthquakes",
+    "queryType": "sample",
+    "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/world_flight_2.png",
+    "description": "Two hours of flight data collected by opensky network on Sep 03 2019",
+    "size": 18313,
+	  "visible ": true,
+    "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/world_floights/world_flights_ie8jrx.csv",
+    "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/world_floights/config_ie8jrx.json"
+  },
+  {
     "id": "earthquakes",
     "label": "California Earthquakes",
     "queryType": "sample",
