@@ -7,7 +7,7 @@
           "id": "lluahhf",
           "type": "trip",
           "config": {
-            "dataId": "r460up3tb",
+            "dataId": "world_flights",
             "label": "Flights",
             "columns": {
               "geojson": "_geojson"
@@ -49,7 +49,7 @@
           "id": "jrj4wei",
           "type": "geojson",
           "config": {
-            "dataId": "r460up3tb",
+            "dataId": "world_flights",
             "label": "Paths",
             "columns": {
               "geojson": "_geojson"
@@ -97,7 +97,7 @@
       },
       "layerBlending": "additive",
       "animationConfig": {
-        "currentTime": 1567549859496.6692
+        "currentTime": 1567555200000
       }
     },
     "mapState": {
