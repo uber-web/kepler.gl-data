@@ -3,7 +3,7 @@
     "id": "world_flights",
     "label": "California Earthquakes",
     "queryType": "sample",
-    "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/world_flight_2.png",
+    "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/world_flight_s.png",
     "description": "Two hours of flight data collected by opensky network on Sep 03 2019",
     "size": 12938,
 	  "visible": true,
