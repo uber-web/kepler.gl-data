@@ -7,8 +7,8 @@
     "description": "Two hours of flight data collected by opensky network on Sep 03 2019",
     "size": 12938,
 	  "visible": true,
-    "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/world_flights/world_flights_ie8jrx.json",
-    "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/world_flights/config_ie8jrx.json"
+    "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/world_flights/world_flights_soei4h.json",
+    "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/world_flights/config_soei4h.json"
   },
   {
     "id": "earthquakes",
