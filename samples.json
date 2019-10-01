@@ -1,12 +1,13 @@
 [
   {
     "id": "world_flights",
-    "label": "All Flights in the World",
+    "label": "All the Flights in the World",
     "queryType": "sample",
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/world_flight_s.png",
-    "description": "Two hours of flight data collected by opensky network on Sep 03 2019",
+    "description": "Two hours of flight data collected by OpenSky Network on September 3rd 2019",
+    "detail": "This dataset contains two hours of flight data collected using the live API of [OpenSky Network](https://opensky-network.org). The color of the flights is based on country of origin. 18 thousands flights are recorded during the two hour period. The path drops over the seas due to lack of satellite coverage.",
     "size": 12938,
-	  "visible": true,
+    "visible": true,
     "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/world_flights/world_flights_soei4h.json",
     "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/world_flights/config_soei4h.json"
   },
@@ -15,18 +16,20 @@
     "label": "California Earthquakes",
     "queryType": "sample",
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/earthquakes.png",
-    "description": "Location, maginitude and magtype of 2.5+ magnitude earthquakes in california.",
+    "description": "Location, magnitude and type of 2.5+ magnitude earthquakes in california.",
+    "detail": "This dataset contains a list of 2.5+ magnitude earthquakes in california. It is gathered from the [USGS website](https://earthquake.usgs.gov/data/data.php) and contains multiple properties (location, magnitude, and type) for each single entry.",
     "size": 54936,
-	  "visible": true,
+    "visible": true,
     "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/earthquakes/data.csv",
     "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/earthquakes/config.json"
   },
   {
     "id": "nyctrips",
-    "label": "NYC taxi trips",
+    "label": "NYC Taxi Trips",
     "queryType": "sample",
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/nyctrips.png",
     "description": "A small sample of yellow and green taxi trip records in New York City.",
+    "detail": "The yellow and green taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. Data is downloaded from [NYC Taxi and Limousine Commission (TLC)](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)",
     "size": 97986,
     "visible": true,
     "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/nyctrips/data.csv",
@@ -34,7 +37,7 @@
   },
   {
     "id": "sfcontour",
-    "label": "San Francisco elevation contours",
+    "label": "San Francisco Elevation Contour",
     "queryType": "sample",
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/sfcontour.png",
     "description": "Elevation contours of San Francisco mainland and Treasure Island/Yerba Island.",
@@ -45,7 +48,7 @@
   },
   {
     "id": "nyc_census",
-    "label": "New york city population by census tract",
+    "label": "New York City Population by Census Tract",
     "queryType": "sample",
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/nyc_census.png",
     "description": "This dataset contains the 2010 Census tract population data of NYC.",
@@ -55,7 +58,7 @@
   },
   {
     "id": "sftrees",
-    "label": "San Francisco street tree map",
+    "label": "San Francisco Street Tree Map",
     "queryType": "sample",
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/sftrees.png",
     "description": "A 3d hexbin density map showing every single streets in San Francisco",
@@ -66,7 +69,7 @@
   },
   {
     "id": "ukcommute",
-    "label": "Commute pattern in England and Wales",
+    "label": "Commute Pattern in England and Wales",
     "queryType": "sample",
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/ukcommute.png",
     "description": "A origin destination map using 3d arcs to show commute patterns of England and Wales residence",
@@ -77,7 +80,7 @@
   },
   {
     "id": "la_assessorparcels",
-    "label": "$2+ million homes built in Los Angeles since 2006",
+    "label": "$2+ Million Homes Built in Los Angeles Since 2006",
     "queryType": "sample",
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/la_assessorparcels.png",
     "description": "Map showing new homes valued over $2,000,000 built in Los Angeles county since 2006",
@@ -88,7 +91,7 @@
   },
   {
     "id": "movement_pittsburgh",
-    "label": "Travel Times from Uber Movement",
+    "label": "Travel Times From Uber Movement",
     "queryType": "sample",
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/movement-pittsburgh.png",
     "description": "Pittsburgh travel times before and during heavy inclement weather conditions",
