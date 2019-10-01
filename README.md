@@ -36,4 +36,4 @@ The data provided in this repo is public and located at the following URLs:
 
 - [2017 Unemployment Rates for U.S. Counties](./county_unemployment)
 
-  This dataset contais 2017 labor force information from the [Bureau of Labor Statistics](https://www.bls.gov/lau/#tables) joined with county shapefiles from the [Census Bureau](https://www.census.gov/geo/maps-data/data/cbf/cbf_counties.html).
+  This dataset contains 2017 labor force information from the [Bureau of Labor Statistics](https://www.bls.gov/lau/#tables) joined with county shapefiles from the [Census Bureau](https://www.census.gov/geo/maps-data/data/cbf/cbf_counties.html).

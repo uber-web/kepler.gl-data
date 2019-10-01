@@ -112,7 +112,7 @@
     "queryType": "sample",
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/counties-unemployment.png",
     "description": "2017 Labor force information for U.S. Counties",
-    "detail": " This dataset contais 2017 labor force information from the [Bureau of Labor Statistics](https://www.bls.gov/lau/#tables) joined with county shapefiles from the [Census Bureau](https://www.census.gov/geo/maps-data/data/cbf/cbf_counties.html).",
+    "detail": " This dataset contains 2017 labor force information from the [Bureau of Labor Statistics](https://www.bls.gov/lau/#tables) joined with county shapefiles from the [Census Bureau](https://www.census.gov/geo/maps-data/data/cbf/cbf_counties.html).",
     "size": 3220,
     "visible": true,
     "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/county_unemployment/data.geojson",
