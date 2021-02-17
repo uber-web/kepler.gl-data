@@ -1,0 +1,188 @@
+{
+  "version": "v1",
+  "config": {
+    "visState": {
+      "filters": [],
+      "layers": [
+        {
+          "id": "s001f7",
+          "type": "geojson",
+          "config": {
+            "dataId": "buildings-heights",
+            "label": "buildings-heights",
+            "color": [255, 203, 153],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": true,
+            "visConfig": {
+              "opacity": 0.5,
+              "strokeOpacity": 0.8,
+              "thickness": 0.1,
+              "strokeColor": [255, 242, 213],
+              "colorRange": {
+                "name": "Uber Viz Diverging 1.5",
+                "type": "diverging",
+                "category": "Uber",
+                "colors": [
+                  "#00939C",
+                  "#5DBABF",
+                  "#BAE1E2",
+                  "#F8C0AA",
+                  "#DD7755",
+                  "#C22E00"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [0, 10],
+              "radiusRange": [0, 50],
+              "heightRange": [0, 500],
+              "elevationScale": 0.2,
+              "stroked": true,
+              "filled": true,
+              "enable3d": true,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [255, 255, 255],
+                "size": 18,
+                "offset": [0, 0],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "class_id",
+              "type": "integer"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": {
+              "name": "building_height",
+              "type": "integer"
+            },
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        }
+      ],
+      "interactionConfig": {
+        "tooltip": {
+          "fieldsToShow": {
+            "0gxyztyl": [
+              {
+                "name": "shape_type",
+                "format": null
+              },
+              {
+                "name": "in_zkh",
+                "format": null
+              },
+              {
+                "name": "building_height",
+                "format": null
+              },
+              {
+                "name": "class_id",
+                "format": null
+              },
+              {
+                "name": "living_quarters_count",
+                "format": null
+              },
+              {
+                "name": "area_total",
+                "format": null
+              },
+              {
+                "name": "floor_count_max",
+                "format": null
+              },
+              {
+                "name": "floor_count_min",
+                "format": null
+              },
+              {
+                "name": "is_alarm",
+                "format": null
+              },
+              {
+                "name": "area_residential",
+                "format": null
+              },
+              {
+                "name": "built_year",
+                "format": null
+              },
+              {
+                "name": "house_type",
+                "format": null
+              }
+            ]
+          },
+          "compareMode": false,
+          "compareType": "absolute",
+          "enabled": true
+        },
+        "brush": {
+          "size": 0.5,
+          "enabled": false
+        },
+        "geocoder": {
+          "enabled": false
+        },
+        "coordinate": {
+          "enabled": false
+        }
+      },
+      "layerBlending": "normal",
+      "splitMaps": [],
+      "animationConfig": {
+        "currentTime": null,
+        "speed": 1
+      }
+    },
+    "mapState": {
+      "bearing": 24,
+      "dragRotate": true,
+      "latitude": 55.93373406319082,
+      "longitude": 37.507241584769346,
+      "pitch": 50,
+      "zoom": 14.020021387712413,
+      "isSplit": false
+    },
+    "mapStyle": {
+      "styleType": "satellite",
+      "topLayerGroups": {},
+      "visibleLayerGroups": {},
+      "threeDBuildingColor": [
+        3.7245996603793508,
+        6.518049405663864,
+        13.036098811327728
+      ],
+      "mapStyles": {}
+    }
+  }
+}
