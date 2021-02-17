@@ -10,14 +10,24 @@
           "config": {
             "dataId": "buildings",
             "label": "buildings",
-            "color": [255, 203, 153],
-            "columns": { "geojson": "_geojson" },
+            "color": [
+              255,
+              203,
+              153
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
             "isVisible": true,
             "visConfig": {
               "opacity": 0.8,
               "strokeOpacity": 0.8,
               "thickness": 0.2,
-              "strokeColor": [255, 254, 230],
+              "strokeColor": [
+                255,
+                254,
+                230
+              ],
               "colorRange": {
                 "name": "Uber Viz Qualitative 1.2",
                 "type": "qualitative",
@@ -45,9 +55,18 @@
                 ]
               },
               "radius": 10,
-              "sizeRange": [0, 10],
-              "radiusRange": [0, 50],
-              "heightRange": [0, 500],
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
               "elevationScale": 5,
               "stroked": true,
               "filled": true,
@@ -58,21 +77,31 @@
             "textLabel": [
               {
                 "field": null,
-                "color": [255, 255, 255],
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
                 "size": 18,
-                "offset": [0, 0],
+                "offset": [
+                  0,
+                  0
+                ],
                 "anchor": "start",
                 "alignment": "center"
               }
             ]
           },
           "visualChannels": {
-            "colorField": { "name": "class_id", "type": "integer" },
+            "colorField": {
+              "name": "class_id",
+              "type": "integer"
+            },
             "colorScale": "quantile",
-            "strokeColorField": null,
-            "strokeColorScale": "quantile",
             "sizeField": null,
             "sizeScale": "linear",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
             "heightField": null,
             "heightScale": "linear",
             "radiusField": null,
@@ -84,46 +113,63 @@
         "tooltip": {
           "fieldsToShow": {
             "buildings": [
-              { "name": "shape_type", "format": null },
-              { "name": "in_zkh", "format": null },
-              { "name": "processing_date", "format": null },
-              { "name": "id", "format": null },
-              { "name": "class_id", "format": null }
+              {
+                "name": "shape_type",
+                "format": null
+              },
+              {
+                "name": "in_zkh",
+                "format": null
+              },
+              {
+                "name": "processing_date",
+                "format": null
+              },
+              {
+                "name": "id",
+                "format": null
+              },
+              {
+                "name": "class_id",
+                "format": null
+              }
             ]
           },
           "compareMode": false,
           "compareType": "absolute",
           "enabled": true
         },
-        "brush": { "size": 0.5, "enabled": false },
-        "geocoder": { "enabled": false },
-        "coordinate": { "enabled": false }
+        "brush": {
+          "size": 0.5,
+          "enabled": false
+        },
+        "geocoder": {
+          "enabled": false
+        },
+        "coordinate": {
+          "enabled": false
+        }
       },
       "layerBlending": "normal",
       "splitMaps": [],
-      "animationConfig": { "currentTime": null, "speed": 1 }
+      "animationConfig": {
+        "currentTime": null,
+        "speed": 1
+      }
     },
     "mapState": {
       "bearing": 0,
       "dragRotate": false,
-      "latitude": 55.639054976020354,
-      "longitude": 37.61322631533412,
+      "latitude": 55.63792697860965,
+      "longitude": 37.59833950479138,
       "pitch": 0,
-      "zoom": 14.682076940774682,
+      "zoom": 16.866723684566026,
       "isSplit": false
     },
     "mapStyle": {
-      "styleType": "dark",
+      "styleType": "satellite",
       "topLayerGroups": {},
-      "visibleLayerGroups": {
-        "label": true,
-        "road": true,
-        "border": false,
-        "building": true,
-        "water": true,
-        "land": true,
-        "3d building": false
-      },
+      "visibleLayerGroups": {},
       "threeDBuildingColor": [
         9.665468314072013,
         17.18305478057247,
