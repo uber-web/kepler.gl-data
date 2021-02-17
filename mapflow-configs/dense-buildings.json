@@ -8,13 +8,9 @@
           "id": "9olf3qn",
           "type": "geojson",
           "config": {
-            "dataId": "buildings",
-            "label": "buildings",
-            "color": [
-              255,
-              203,
-              153
-            ],
+            "dataId": "dense-buildings",
+            "label": "African-buildings",
+            "color": [255, 203, 153],
             "columns": {
               "geojson": "_geojson"
             },
@@ -23,11 +19,7 @@
               "opacity": 0.8,
               "strokeOpacity": 0.8,
               "thickness": 0.2,
-              "strokeColor": [
-                255,
-                254,
-                230
-              ],
+              "strokeColor": [255, 254, 230],
               "colorRange": {
                 "name": "Uber Viz Qualitative 1.2",
                 "type": "qualitative",
@@ -55,18 +47,9 @@
                 ]
               },
               "radius": 10,
-              "sizeRange": [
-                0,
-                10
-              ],
-              "radiusRange": [
-                0,
-                50
-              ],
-              "heightRange": [
-                0,
-                500
-              ],
+              "sizeRange": [0, 10],
+              "radiusRange": [0, 50],
+              "heightRange": [0, 500],
               "elevationScale": 5,
               "stroked": true,
               "filled": true,
@@ -77,16 +60,9 @@
             "textLabel": [
               {
                 "field": null,
-                "color": [
-                  255,
-                  255,
-                  255
-                ],
+                "color": [255, 255, 255],
                 "size": 18,
-                "offset": [
-                  0,
-                  0
-                ],
+                "offset": [0, 0],
                 "anchor": "start",
                 "alignment": "center"
               }
