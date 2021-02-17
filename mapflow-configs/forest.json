@@ -8,8 +8,8 @@
           "id": "i6txej",
           "type": "geojson",
           "config": {
-            "dataId": "m63owra5",
-            "label": "features (10)",
+            "dataId": "forest",
+            "label": "forest",
             "color": [82, 163, 83],
             "columns": {
               "geojson": "_geojson"
