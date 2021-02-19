@@ -5,40 +5,32 @@
       "filters": [],
       "layers": [
         {
-          "id": "9olf3qn",
+          "id": "yd3eksm",
           "type": "geojson",
           "config": {
             "dataId": "buildings",
-            "label": "buildings",
-            "color": [
-              255,
-              203,
-              153
-            ],
+            "label": "features-buildings",
+            "color": [255, 203, 153],
             "columns": {
               "geojson": "_geojson"
             },
             "isVisible": true,
             "visConfig": {
-              "opacity": 0.8,
+              "opacity": 0.28,
               "strokeOpacity": 0.8,
-              "thickness": 0.2,
-              "strokeColor": [
-                255,
-                254,
-                230
-              ],
+              "thickness": 0.1,
+              "strokeColor": [248, 149, 112],
               "colorRange": {
-                "name": "Uber Viz Qualitative 1.2",
-                "type": "qualitative",
-                "category": "Uber",
+                "name": "Custom Palette",
+                "type": "custom",
+                "category": "Custom",
                 "colors": [
-                  "#12939A",
-                  "#DDB27C",
-                  "#88572C",
-                  "#FF991F",
-                  "#F15C17",
-                  "#223F9A"
+                  "#ff561f",
+                  "#b40091",
+                  "#fff874",
+                  "#ad9086",
+                  "#af39ff",
+                  "#d069ff"
                 ]
               },
               "strokeColorRange": {
@@ -55,18 +47,9 @@
                 ]
               },
               "radius": 10,
-              "sizeRange": [
-                0,
-                10
-              ],
-              "radiusRange": [
-                0,
-                50
-              ],
-              "heightRange": [
-                0,
-                500
-              ],
+              "sizeRange": [0, 10],
+              "radiusRange": [0, 50],
+              "heightRange": [0, 30],
               "elevationScale": 5,
               "stroked": true,
               "filled": true,
@@ -77,16 +60,9 @@
             "textLabel": [
               {
                 "field": null,
-                "color": [
-                  255,
-                  255,
-                  255
-                ],
+                "color": [255, 255, 255],
                 "size": 18,
-                "offset": [
-                  0,
-                  0
-                ],
+                "offset": [0, 0],
                 "anchor": "start",
                 "alignment": "center"
               }
@@ -97,12 +73,12 @@
               "name": "class_id",
               "type": "integer"
             },
-            "colorScale": "quantile",
-            "sizeField": null,
-            "sizeScale": "linear",
+            "colorScale": "quantize",
             "strokeColorField": null,
             "strokeColorScale": "quantile",
-            "heightField": null,
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": "building_height",
             "heightScale": "linear",
             "radiusField": null,
             "radiusScale": "linear"
@@ -112,25 +88,13 @@
       "interactionConfig": {
         "tooltip": {
           "fieldsToShow": {
-            "buildings": [
-              {
-                "name": "shape_type",
-                "format": null
-              },
-              {
-                "name": "in_zkh",
-                "format": null
-              },
-              {
-                "name": "processing_date",
-                "format": null
-              },
-              {
-                "name": "id",
-                "format": null
-              },
+            "dbrp06bxb": [
               {
                 "name": "class_id",
+                "format": null
+              },
+              {
+                "name": "building_height",
                 "format": null
               }
             ]
@@ -147,7 +111,7 @@
           "enabled": false
         },
         "coordinate": {
-          "enabled": false
+          "enabled": true
         }
       },
       "layerBlending": "normal",
@@ -160,21 +124,16 @@
     "mapState": {
       "bearing": 0,
       "dragRotate": false,
-      "latitude": 55.63792697860965,
-      "longitude": 37.59833950479138,
+      "latitude": 55.94699575453938,
+      "longitude": 37.5092924038686,
       "pitch": 0,
-      "zoom": 16.866723684566026,
+      "zoom": 15.944223236210371,
       "isSplit": false
     },
     "mapStyle": {
       "styleType": "satellite",
       "topLayerGroups": {},
       "visibleLayerGroups": {},
-      "threeDBuildingColor": [
-        9.665468314072013,
-        17.18305478057247,
-        31.1442867897876
-      ],
       "mapStyles": {}
     }
   }
