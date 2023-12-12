@@ -37,3 +37,7 @@ The data provided in this repo is public and located at the following URLs:
 - [2017 Unemployment Rates for U.S. Counties](./county_unemployment)
 
   This dataset contains 2017 labor force information from the [Bureau of Labor Statistics](https://www.bls.gov/lau/#tables) joined with county shapefiles from the [Census Bureau](https://www.census.gov/geo/maps-data/data/cbf/cbf_counties.html).
+
+- [Block-level Earnings New York City (GeoArrow)](./nyc_earnings)
+
+  This GeoArrow dataset contains block-level earnings data of New York City from 2002 to 2014. The map is a Quantile map based on the total number of jobs in year 2000-2002. Data is prepared by [the Center for Spatial Data Science at University of Chicago](https://spatial.uchicago.edu). Data source: [CSDS](https://geodacenter.github.io/data-and-lab/LEHD_Data/).

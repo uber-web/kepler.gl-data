@@ -126,5 +126,17 @@
     "description": "2017 Labor force information for U.S. Counties",
     "visible": false,
     "keplergl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/usdot/keplergl.json"
+  },
+  {
+    "id": "nyc_earnings",
+    "label": "Block-level Earnings New York City (GeoArrow)",
+    "queryType": "sample",
+    "imageUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/nyc_earnings/nyc-earnings.png",
+    "description": "Block-level Earnings New York City (2002-14) from Longitudinal Employer-Household Dynamics (LEHD). Geographic units: 2010 Census blocks.",
+    "detail": " This GeoArrow dataset contains block-level earnings data of New York City from 2002 to 2014. The map is a Quantile map based on the total number of jobs in year 2000-2002. Data is prepared by [the Center for Spatial Data Science at University of Chicago](https://spatial.uchicago.edu). Data source [page](https://geodacenter.github.io/data-and-lab/LEHD_Data/).",
+    "size": 108487,
+    "visible": true,
+    "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/nyc_earnings/data.arrow",
+    "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/nyc_earnings/config.json"
   }
 ]
